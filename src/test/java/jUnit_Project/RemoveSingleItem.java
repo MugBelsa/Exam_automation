@@ -30,6 +30,7 @@ public class RemoveSingleItem {
 
 	@After
 	public void teardown() {
+		System.out.println("Browser shoot down");
 		BrowserFactory.teardown();
 	}
 
